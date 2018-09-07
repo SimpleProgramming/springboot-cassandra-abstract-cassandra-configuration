@@ -1,0 +1,10 @@
+server:
+  port: 3001
+
+cassandra:
+  database:
+    keyspace-name: simple_programming
+    contact-points: localhost
+    port: 9042
+    userName: cassandra
+    password: cassandra
