@@ -1,13 +1,9 @@
 package com.springboot.service;
 
-import static org.mockito.Mockito.CALLS_REAL_METHODS;
-
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.springboot.entity.SimpleTableEntity;
 import com.springboot.entity.SimpleTablePrimaryKey;
@@ -61,7 +57,7 @@ public class CassandraService {
 		primaryKey.setName(name);
 		Optional<SimpleTableEntity> entity = cassandraRepository.findById(primaryKey);
 		if(!entity.isPresent()) {
-			
+			//throw an exception
 		}
 		return mapEntityToObject(entity.get());
 	}
