@@ -1,4 +1,4 @@
-# springboot-cassandra-abstract-cassandra-configuration
+# Spring Boot & Cassandra with AbstractCassandraConfiguration
 A simple example explaining how to use springboot and cassandra using abstract cassandra configuration
 
 In this example let us see how to use Abstract Cassandra Configuration to config cassandra connection in spring boot application
