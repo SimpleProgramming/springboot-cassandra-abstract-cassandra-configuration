@@ -5,6 +5,10 @@ In this example let us see how to use Abstract Cassandra Configuration to config
 
     Abstract Cassandra Configuration class is the base class for Spring Data Cassandra configuration 
     using JavaConfig
+    
+# Prerequisites
+
+    Cassandra installed in your machine
 
 # Cassandra Scripts:
 
