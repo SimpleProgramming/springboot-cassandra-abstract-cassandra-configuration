@@ -10,8 +10,8 @@ In this example let us see how to use Abstract Cassandra Configuration to config
 
 Create Key Space
 
-    CREATE KEYSPACE simple_programming WITH replication = {''class'': ''SimpleStrategy'', 
-    ''replication_factor'': ''1''};
+    CREATE KEYSPACE simple_programming WITH replication = {'class': 'SimpleStrategy', 
+    'replication_factor': '1'};
 
 Create SimpleType
 
